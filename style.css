@@ -17,17 +17,20 @@ h1 {
   font-weight: 600;
   margin-bottom: 0;
 }
+
 h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   color: #171717;
 }
+
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   color: #171717;
 }
+
 p {
   margin-bottom: 1rem;
   color: #404040;
@@ -74,6 +77,7 @@ p {
 .nav-btn:hover {
   background-color: #f5f5f5;
 }
+
 .nav-btn.active {
   background-color: #171717;
   color: #fff;
@@ -98,6 +102,7 @@ p {
     border-right: none;
     border-bottom: 1px solid #e5e5e5;
   }
+
   .main-content {
     margin-left: 0;
     padding: 1.5rem;
@@ -188,4 +193,59 @@ h3 + .artwork-item {
 
 .artwork-text p {
   margin-top: 0;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-item:hover {
+  background-color: #fafafa;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #f5f5f5;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #171717;
+  display: block;
+}
+
+.contact-value {
+  font-size: 0.95rem;
+  color: #525252;
+  display: block;
+  white-space: normal;
 }
