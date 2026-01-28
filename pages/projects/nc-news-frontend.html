@@ -3,43 +3,57 @@
 <div class="projects-grid">
   <div class="project-card">
     <p>
-      This project is the front-end of the NC News application, built as part of
-      my Northcoders coding bootcamp. The app is a responsive news web
-      application that allows users to browse, read, and interact with articles
-      on a variety of topics. It connects to the NC News API to provide dynamic
-      content and real time user interactions.
+      This project is the front-end of the NC News application, built during my
+      Northcoders coding bootcamp. The application connects to the NC News API
+      and renders dynamic data, allowing users to browse, read, and interact
+      with articles and comments. A key focus was ensuring consistent behaviour
+      across different states, including loading, error, and empty data
+      scenarios.
     </p>
+
     <p>
-      The focus of the project was creating a clear and intuitive interface for
-      content heavy information, ensuring users can easily filter articles, read
-      comments, and interact through voting and discussion.
+      I prioritised accurate data rendering, input validation, and predictable
+      user interactions. Particular attention was given to how the interface
+      responds to API delays, failed requests, and edge cases, ensuring users
+      receive clear feedback at all times.
     </p>
+
+    <div style="margin-top: 2rem">
+      <h3>Testing and Behaviour Focus</h3>
+      <ul>
+        <li>Handled loading, error, and empty states clearly</li>
+        <li>Validated user input before submitting data to the API</li>
+        <li>Ensured consistent rendering when data updates dynamically</li>
+        <li>
+          Verified voting and comment functionality under different conditions
+        </li>
+        <li>
+          Manually tested across screen sizes and devices for layout stability
+        </li>
+      </ul>
+    </div>
 
     <div style="margin-top: 2rem">
       <h3>Features</h3>
       <ul>
         <li>Browse articles with filtering by date or votes</li>
-        <li>Read full articles with clearly structured content and comments</li>
+        <li>Read full articles with structured content and comments</li>
         <li>
           Post, delete, and vote on comments with immediate visual feedback
         </li>
         <li>Upvote and downvote functionality for articles and comments</li>
-        <li>Seamless, mobile-friendly responsive design</li>
-        <li>Integration with the NC News backend API</li>
-        <li>Optimised for performance and smooth UX</li>
+        <li>Responsive design across desktop and mobile devices</li>
+        <li>Integration with the NC News API</li>
       </ul>
     </div>
 
-    <h3 style="margin-top: 2rem">Challenges & Learnings</h3>
+    <h3 style="margin-top: 2rem">Challenges and Learnings</h3>
     <p>
-      Building the front-end helped me understand how interface decisions affect
-      usability, particularly when working with dynamic data. I focused on
-      handling loading, error, and empty states clearly so users always
-      understood what was happening. Designing the layout for different screen
-      sizes reinforced the importance of hierarchy, spacing, and readability in
-      content heavy interfaces. Integrating user interactions such as voting and
-      commenting highlighted the value of immediate feedback in creating a
-      responsive and engaging user experience.
+      This project strengthened my understanding of how front-end behaviour must
+      align with back-end logic. I learned to anticipate failure scenarios, test
+      edge cases, and design interfaces that remain stable even when data is
+      delayed, missing, or invalid. It reinforced the importance of clear
+      feedback, predictable state changes, and defensive programming.
     </p>
 
     <div style="margin-top: 2rem">
@@ -54,19 +68,19 @@
     </div>
 
     <div style="margin-top: 2rem">
-      <h3>Live Version & Repo</h3>
+      <h3>Live Version and Repo</h3>
       <p>
-        <a href="https://fe-nc-news-xi.vercel.app" target="_blank"
-          >Live Front-end on Vercel</a
-        >
+        <a href="https://fe-nc-news-xi.vercel.app" target="_blank">
+          Live Front End on Vercel
+        </a>
         |
-        <a href="https://github.com/taraolewis/FE-nc-news" target="_blank"
-          >GitHub Repository</a
-        >
+        <a href="https://github.com/taraolewis/FE-nc-news" target="_blank">
+          Front End Repository
+        </a>
         |
-        <a href="https://github.com/taraolewis/BE-nc-news" target="_blank"
-          >Backend Repository</a
-        >
+        <a href="https://github.com/taraolewis/BE-nc-news" target="_blank">
+          Back End Repository
+        </a>
       </p>
     </div>
 
@@ -75,40 +89,27 @@
       <div class="screenshots">
         <img
           src="../../assets/frontend.png"
-          alt="NC News Front-end Screenshot 1"
-          style="
-            width: 80%;
-            border-radius: 6px;
-            opacity: 1;
-            margin-bottom: 1rem;
-          "
+          alt="NC News Front End Screenshot 1"
+          style="width: 80%; border-radius: 6px; margin-bottom: 1rem"
         />
         <img
           src="../../assets/frontend2.png"
-          alt="NC News Front-end Screenshot 2"
-          style="
-            width: 80%;
-            border-radius: 6px;
-            opacity: 1;
-            margin-bottom: 1rem;
-          "
+          alt="NC News Front End Screenshot 2"
+          style="width: 80%; border-radius: 6px; margin-bottom: 1rem"
         />
+
         <div style="margin-top: 2rem">
-          <h3>Planning & Layout</h3>
+          <h3>Planning and Layout</h3>
           <p>
-            Early wireframes were used to plan layout, content hierarchy, and
-            interaction flow before implementation, helping to keep the
-            interface clear and consistent as features were added.
+            Initial wireframes were used to structure content and interaction
+            flow before implementation. This planning supported clearer
+            component organisation and easier identification of edge cases
+            during development and testing.
           </p>
           <img
             src="../../assets/plan.png"
-            alt="NC News Front-end Wireframe / Plan"
-            style="
-              width: 100%;
-              border-radius: 6px;
-              opacity: 1;
-              margin-bottom: 1rem;
-            "
+            alt="NC News Front End Wireframe Plan"
+            style="width: 100%; border-radius: 6px; margin-bottom: 1rem"
           />
         </div>
       </div>

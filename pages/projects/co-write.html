@@ -3,48 +3,53 @@
 <div class="projects-grid">
   <div class="project-card">
     <p>
-      Co-Write is a mobile application developed as a group project at
-      Northcoders Bootcamp. The goal was to design an intuitive experience that
-      enables users to co-create narratives in real time, contribute
-      meaningfully to shared stories, and explore completed work in an engaging,
-      accessible format.
+      Co-Write is a mobile application developed as a group project during
+      Northcoders Bootcamp. The application allows users to create and
+      contribute to shared stories in real time, with authentication, data
+      persistence, and external API integration. A key focus was ensuring
+      reliable collaborative behaviour and consistent state management across
+      multiple users.
     </p>
 
     <p>
-      This MVP was designed and built over three weeks, with a focus on clear
-      user flows, interaction feedback, and collaborative behaviour within a
-      constrained mobile interface.
+      Built over three weeks in an Agile team, the project required careful
+      handling of user authentication, asynchronous updates, and API responses.
+      I contributed to validating feature behaviour, testing edge cases, and
+      debugging issues to maintain stable functionality across the application.
     </p>
+
+    <h3>Testing and Behaviour Focus</h3>
+    <ul>
+      <li>Validated authentication flow using Firebase</li>
+      <li>Tested real time updates to ensure consistent shared state</li>
+      <li>Verified word limit enforcement and voting logic</li>
+      <li>Handled API delays and failure responses gracefully</li>
+      <li>Tested navigation flows across multiple mobile screens</li>
+      <li>Manually tested on different device sizes for layout stability</li>
+    </ul>
 
     <h3>Features</h3>
     <ul>
-      <li>Simple user authentication with Firebase</li>
-      <li>Create new story threads and contribute collaboratively</li>
-      <li>
-        AI-powered story continuation using OpenAI & OpenRouter APIs to enhance
-        engagement
-      </li>
-      <li>View completed stories with AI-generated images</li>
+      <li>User authentication with Firebase</li>
+      <li>Create and contribute to collaborative story threads</li>
+      <li>AI generated story continuation using external APIs</li>
+      <li>View completed stories with generated images</li>
       <li>Real time updates to support collaborative editing</li>
-      <li>
-        Word limit enforcement and voting system to guide user contributions and
-        encourage participation
-      </li>
-      <li>Mobile first responsive design with React Native</li>
+      <li>Word limit enforcement and voting system</li>
+      <li>Mobile first design built with React Native</li>
     </ul>
 
-    <h3 style="margin-top: 2rem">Challenges & Learnings</h3>
+    <h3 style="margin-top: 2rem">Challenges and Learnings</h3>
     <p>
-      Designing Co-Write helped me develop a stronger understanding of
-      collaborative UX patterns, including how users discover, join, and
-      contribute to shared content. Working in a team required aligning on
-      interaction decisions, handling feedback, and iterating on flows based on
-      usability and clarity.
+      This project strengthened my understanding of how collaborative systems
+      must manage shared state and asynchronous behaviour. I learned to
+      anticipate race conditions, inconsistent updates, and API failures, and to
+      design defensive logic that protects the user experience.
     </p>
     <p>
-      Building for mobile also strengthened my approach to information
-      hierarchy, affordances, and accessibility, while balancing technical
-      constraints with user needs.
+      Working in a team also reinforced the importance of clear communication,
+      documenting issues, and testing new features carefully before merging
+      changes.
     </p>
 
     <h3>Tech Used</h3>
@@ -55,58 +60,59 @@
       <span class="tag">React Navigation</span>
       <span class="tag">OpenAI API</span>
       <span class="tag">OpenRouter API</span>
-      <span class="tag">Figma</span>
     </div>
 
     <h3>Repo</h3>
     <p>
-      <a href="https://github.com/heliosasdesigner/co-write" target="_blank"
-        >GitHub Repository</a
-      >
+      <a href="https://github.com/heliosasdesigner/co-write" target="_blank">
+        GitHub Repository
+      </a>
     </p>
 
     <h3>Screenshots</h3>
     <img
       src="../../assets/cowrite1.png"
-      alt="Co-Write Landing Page Screenshot"
-      style="width: 30%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+      alt="Co Write Landing Page Screenshot"
+      style="width: 30%; border-radius: 6px; margin-bottom: 1rem"
     />
     <img
       src="../../assets/cowrite2.png"
-      alt="Co-Write Story Rooms Screenshot"
-      style="width: 30%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+      alt="Co Write Story Rooms Screenshot"
+      style="width: 30%; border-radius: 6px; margin-bottom: 1rem"
     />
     <img
       src="../../assets/cowrite3.png"
-      alt="Co-Write AI Story Completion Screenshot"
-      style="width: 30%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+      alt="Co Write AI Story Completion Screenshot"
+      style="width: 30%; border-radius: 6px; margin-bottom: 1rem"
     />
     <img
       src="../../assets/cowrite4.png"
-      alt="Co-Write AI Story Completion Screenshot"
-      style="width: 30%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+      alt="Co Write AI Story Completion Screenshot"
+      style="width: 30%; border-radius: 6px; margin-bottom: 1rem"
     />
 
     <div style="margin-top: 2rem">
-      <h3>Planning & Layout</h3>
+      <h3>Planning and Layout</h3>
       <p>
-        Initial planning used flow diagrams and wireframes to define user
-        journeys and interaction patterns.
+        Flow diagrams and wireframes were used to define user journeys and
+        feature behaviour before implementation. This planning supported clearer
+        identification of edge cases and improved validation of user flows
+        during development.
       </p>
       <img
         src="../../assets/planCowrite1.png"
-        alt="Co-write Wireframe / Plan"
-        style="width: 100%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+        alt="Co Write Wireframe Plan"
+        style="width: 100%; border-radius: 6px; margin-bottom: 1rem"
       />
       <img
         src="../../assets/planCowrite2.png"
-        alt="Co-write Wireframe / Plan"
-        style="width: 100%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+        alt="Co Write Wireframe Plan"
+        style="width: 100%; border-radius: 6px; margin-bottom: 1rem"
       />
       <img
         src="../../assets/planCowrite3.png"
-        alt="Co-write Wireframe / Plan"
-        style="width: 100%; border-radius: 6px; opacity: 1; margin-bottom: 1rem"
+        alt="Co Write Wireframe Plan"
+        style="width: 100%; border-radius: 6px; margin-bottom: 1rem"
       />
     </div>
   </div>

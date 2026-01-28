@@ -3,34 +3,42 @@
 <div class="projects-grid">
   <div class="project-card">
     <p>
-      This project is the backend API for the NC News application, built as part
-      of my Northcoders coding bootcamp. The API powers a news application,
-      allowing users to fetch and interact with articles, topics, comments, and
-      users. Users can read, post, update, and delete comments, as well as
-      filter articles by topic, author, or date. The project follows a
-      test-driven development approach using Jest and includes robust error
-      handling with clear messages for invalid requests. Building the API helped
-      me understand how user actions map to system behaviour, and how clear data
-      structures and error handling support reliable and predictable user
-      experiences.
+      This project is the API for the NC News application, built during my
+      Northcoders coding bootcamp. I developed the endpoints and validated the
+      behaviour using a test first workflow, writing automated tests to confirm
+      correct responses, status codes, and error messages for both expected and
+      unexpected requests. The API supports fetching and interacting with
+      articles, topics, comments, and users, with strong input validation and
+      clear error handling to ensure reliable and predictable behaviour.
     </p>
+
+    <h3>Testing Focus</h3>
+    <ul>
+      <li>Unit and integration testing using Jest and Supertest</li>
+      <li>
+        Coverage of success paths, invalid input, and missing resource cases
+      </li>
+      <li>Validation of status codes, response shapes, and error messages</li>
+      <li>
+        Manual checks using an API client to verify real request behaviour
+      </li>
+    </ul>
 
     <h3>Features</h3>
     <ul>
-      <li>RESTful API for articles, comments, topics, and users</li>
-      <li>User authentication and authorisation</li>
-      <li>CRUD operations for comments and articles</li>
-      <li>Filtering and sorting of articles by topic, author, or date</li>
-      <li>Error handling with descriptive messages</li>
-      <li>Test-driven development with Jest</li>
+      <li>REST API for articles, comments, topics, and users</li>
+      <li>CRUD operations for comments</li>
+      <li>Sorting and filtering of articles by topic, author, and date</li>
+      <li>Error handling with descriptive messages for invalid requests</li>
       <li>Hosted live version accessible via Render</li>
     </ul>
 
-    <h3 style="margin-top: 2rem">Challenges & Learnings</h3>
+    <h3 style="margin-top: 2rem">Challenges and Learnings</h3>
     <p>
-      Building the API taught me how to structure endpoints and handle database
-      relationships efficiently. Writing tests with Jest improved my confidence
-      in delivering bug-free, maintainable code.
+      Building this API strengthened my ability to think in terms of system
+      behaviour and risk. I learned how to design tests that protect critical
+      functionality, identify edge cases early, and support confident changes
+      without breaking existing endpoints.
     </p>
 
     <h3>Tech Used</h3>
@@ -39,11 +47,12 @@
       <span class="tag">Express</span>
       <span class="tag">PostgreSQL</span>
       <span class="tag">Jest</span>
+      <span class="tag">Supertest</span>
       <span class="tag">REST API</span>
       <span class="tag">Render</span>
     </div>
 
-    <h3>Live Version & Repo</h3>
+    <h3>Live Version and Repo</h3>
     <p>
       <a href="https://be-nc-news-wwtd.onrender.com/api" target="_blank"
         >Live API on Render</a
