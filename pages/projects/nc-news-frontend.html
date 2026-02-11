@@ -3,57 +3,36 @@
 <div class="projects-grid">
   <div class="project-card">
     <p>
-      This project is the front-end of the NC News application, built during my
-      Northcoders coding bootcamp. The application connects to the NC News API
-      and renders dynamic data, allowing users to browse, read, and interact
-      with articles and comments. A key focus was ensuring consistent behaviour
-      across different states, including loading, error, and empty data
-      scenarios.
+      This project is the frontend of the NC News application, built during my
+      Northcoders bootcamp. It connects to a RESTful API to fetch and display
+      articles, comments, and user data. The application allows users to browse
+      content, sort articles, and interact through voting and commenting. A key
+      focus was handling different application states clearly, including
+      loading, errors, and empty results. I worked on ensuring the interface
+      updated reliably when data changed and that user actions triggered
+      predictable updates in the UI.
     </p>
-
-    <p>
-      I prioritised accurate data rendering, input validation, and predictable
-      user interactions. Particular attention was given to how the interface
-      responds to API delays, failed requests, and edge cases, ensuring users
-      receive clear feedback at all times.
-    </p>
-
-    <div style="margin-top: 2rem">
-      <h3>Testing and Behaviour Focus</h3>
-      <ul>
-        <li>Handled loading, error, and empty states clearly</li>
-        <li>Validated user input before submitting data to the API</li>
-        <li>Ensured consistent rendering when data updates dynamically</li>
-        <li>
-          Verified voting and comment functionality under different conditions
-        </li>
-        <li>
-          Manually tested across screen sizes and devices for layout stability
-        </li>
-      </ul>
-    </div>
 
     <div style="margin-top: 2rem">
       <h3>Features</h3>
       <ul>
-        <li>Browse articles with filtering by date or votes</li>
-        <li>Read full articles with structured content and comments</li>
+        <li>Fetched and displayed dynamic data from a RESTful API</li>
         <li>
-          Post, delete, and vote on comments with immediate visual feedback
+          Implemented voting, posting, and deleting comments with real time UI
+          updates
         </li>
-        <li>Upvote and downvote functionality for articles and comments</li>
-        <li>Responsive design across desktop and mobile devices</li>
-        <li>Integration with the NC News API</li>
+        <li>Added filtering and sorting functionality for articles</li>
+        <li>Handled loading, error, and empty states to improve reliability</li>
+        <li>Built a responsive layout for desktop and mobile</li>
       </ul>
     </div>
 
-    <h3 style="margin-top: 2rem">Challenges and Learnings</h3>
+    <h3 style="margin-top: 2rem">What I Learned</h3>
     <p>
-      This project strengthened my understanding of how front-end behaviour must
-      align with back-end logic. I learned to anticipate failure scenarios, test
-      edge cases, and design interfaces that remain stable even when data is
-      delayed, missing, or invalid. It reinforced the importance of clear
-      feedback, predictable state changes, and defensive programming.
+      This project helped me understand how frontend applications interact with
+      backend systems and manage changing data. I improved my confidence working
+      with asynchronous requests, managing state in React, and building
+      interfaces that remain stable even when requests fail or data is delayed.
     </p>
 
     <div style="margin-top: 2rem">
@@ -100,12 +79,6 @@
 
         <div style="margin-top: 2rem">
           <h3>Planning and Layout</h3>
-          <p>
-            Initial wireframes were used to structure content and interaction
-            flow before implementation. This planning supported clearer
-            component organisation and easier identification of edge cases
-            during development and testing.
-          </p>
           <img
             src="../../assets/plan.png"
             alt="NC News Front End Wireframe Plan"
